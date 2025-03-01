@@ -448,7 +448,7 @@ ul.open.navLinks {
 // footer
 
 div#footerWrapper {
-  background-color: $accentColor;
+  background-color: $primaryColor;
   color: $secondaryColor;
   footer {
     padding: 2rem;
@@ -466,7 +466,7 @@ div#footerWrapper {
         margin: 0.5rem;
         padding: 0.8rem;
         &:hover {
-          color: $primaryColor;
+          color: $accentColor;
         }
       }
     }
@@ -474,6 +474,7 @@ div#footerWrapper {
       font-weight: $boldWeight;
       text-align: center;
       font-size:1.1rem;
+      color:$secondaryColor;
     }
   }
 }
