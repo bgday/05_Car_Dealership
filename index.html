@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>05 Dealership | Brian Day Dev</title>
+    <meta name="description" content="Brian Day's start file" />
+    <meta name="author" content="Brian Day" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.min.css" rel="stylesheet" />
+
+    <!--fav icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body>
+    <div id="headerWrapper">
+      <header>
+        <a href="#"
+          ><img
+            src="./images/logo1x.png"
+            alt="logo"
+            width="123"
+            height="75"
+            srcset="
+              ./images/logo1x.png 1x,
+              ./images/logo2x.png 2x,
+              ./images/logo3x.png 3x
+            "
+        /></a>
+        <div class="headerText">
+          <h1>BD Performance</h1>
+          <p>
+            <a href="tel:8016641192">801 664 1192</a>
+          </p>
+        </div>
+      </header>
+    </div>
+
+    <div id="navWrapper">
+      <nav>
+        <button id="navButton" aria-label="toggle navigation menu"></button>
+        <ul class="navLinks">
+          <li class="active">
+            <a href="#"><span class="activeSpan">Reviews</span></a>
+          </li>
+          <li>
+            <a href="#"><span class="inactiveSpan">Inventory</span></a>
+          </li>
+          <li>
+            <a href="#"><span class="inactiveSpan">About Us</span></a>
+          </li>
+          <li>
+            <a href="#"><span class="inactiveSpan">Contact</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="mainWrapper">
+      <main>
+        <div class="hero">
+          <img src="./images/supra.jpg" alt="Supra" width="1600" height="722" />
+          <p>
+            2025 GR Supra Specs<br />
+            3.0L 6-CYL. ENGINE: 382 HP/368 Lb.-Ft.<br />
+            <span class="hiddenMobile">
+              PERFORMANCE: 0-60 in 3.9 Seconds<br />
+            </span>
+            <span class="hiddenTablet">
+              TRANSMISSION: 6-Speed iMT or 8-Speed AT<br />
+              AVS: Adaptive Variable Suspension
+            </span>
+          </p>
+        </div>
+        <h1>Why Choose BD Performance?</h1>
+        <!--<div class="allCards">
+          <div>
+            <section>
+              <h2>Comfortable Seating</h2>
+              <img
+                src="./images/booths.webp"
+                alt="diner booths"
+                width="300"
+                height="175"
+              />
+              <p>
+                Relax and enjoy your meal in our cozy booths and comfy
+                chairs—good food tastes better when you’re comfortable!
+              </p>
+              <a href="">Learn More</a>
+            </section>
+          </div>
+          <div>
+            <section>
+              <h2>Quick Bites</h2>
+              <img
+                src="./images/counter.webp"
+                alt="diner counter"
+                width="300"
+                height="175"
+                class="e2e"
+              />
+
+              <p>
+                Short on time? Grab a tasty, satisfying bite without the wait.
+                Fresh, fast, and always delicious!
+              </p>
+              <a href="">Learn More</a>
+            </section>
+          </div>
+          <div>
+            <section>
+              <img src="./images/coffee.webp" alt="" width="300" height="175" />
+              <h2>Energizing Drinks</h2>
+              <p>
+                From rich, bold coffee to refreshing teas, our drinks are made
+                to fuel your day.
+              </p>
+              <a href="">Learn More</a>
+            </section>
+          </div>
+          <div>
+            <section>
+              <img
+                src="./images/breakfaset.webp"
+                alt=""
+                width="300"
+                height="175"
+                class="e2e"
+              />
+              <h2>Nourishing Breakfast</h2>
+              <p>
+                Start your morning right with hearty, wholesome breakfast
+                favorites that keep you going.
+              </p>
+              <a href="">Learn More</a>
+            </section>
+          </div>
+          <div>
+            <section>
+              <h2>Delicious Desserts</h2>
+              <img src="./images/shake.webp" alt="" width="300" height="175" />
+              <p>
+                Treat yourself to something sweet—decadent cakes, creamy shakes,
+                and classic diner delights await!
+              </p>
+              <a href="">Learn More</a>
+            </section>
+          </div>
+        </div>-->
+
+        <div class="myCards">
+          <section class="bounce">
+            <img src="./images/Engine.svg" alt="" />
+            <p>
+              Raw strength. Unstoppable performance. Dominate the road.
+            </p>
+            <a href="#">Unleash Power</a>
+          </section>
+          <section class="spin">
+            <img src="./images/gear.svg" alt="" />
+            <p>
+              Precision-tuned. Razor-sharp control. Own every turn.
+            </p>
+            <a href="#">Master Precision</a>
+          </section>
+          <section class="zoom">
+            <img src="./images/speedometer-outline.svg" alt="" />
+            <p>
+              Blazing acceleration. Pure adrenaline. Leave them in the dust.
+            </p>
+            <a href="#">Feel Speed</a>
+          </section>
+          <section class="pulse">
+            <img src="./images/skull.svg" alt="" />
+            <p>
+              Bold. Unapologetic. A ride that demands respect.
+            </p>
+            <a href="#">Rule the Road</a>
+          </section>
+        </div>
+        
+        <div id="reviewWrapper">
+          <h2>Reviews</h2>
+          <div id="cards">
+    
+          </div>
+        </div>
+
+
+      </main>
+    </div>
+
+
+
+    <div id="footerWrapper">
+      <footer>
+        <div>
+          <section class="social">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+          </section>
+
+        </div>
+        <p class="legal">&copy; <span id="year"></span> &bull; Brian Day</p>
+      </footer>
+    </div>
+
+    <script src="js/scripts.js" type="module"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

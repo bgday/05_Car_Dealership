@@ -1,0 +1,41 @@
+header {
+  padding: 2rem $gutter;
+  h1 {
+    font-size: 2rem;
+    padding-top: 0.6rem;
+  }
+}
+
+nav {
+  ul {
+    display: flex;
+  }
+}
+
+nav ul li a {
+  border-bottom: none;
+}
+
+// main
+
+#mainWrapper main {
+  .hero {
+    p {
+      line-height: 1.75rem;
+      .hiddenTablet {
+        display: none;
+      }
+      .hiddenMobile {
+        display: inline;
+      }
+    }
+  }
+  .myCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    section {
+      flex: 0 0 50%;
+      border: 1px solid white;
+    }
+  }
+}

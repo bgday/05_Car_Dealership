@@ -1,0 +1,63 @@
+header,
+nav,
+main,
+footer {
+  max-width: 60rem;
+  margin: auto;
+}
+#navwrapper {
+  background-color: $accentColor;
+}
+
+nav {
+  padding-top: 1rem;
+  ul.navLinks,
+  ul.navLinks.open {
+    justify-content: flex-start;
+    display: flex;
+    background-color: $secondaryColor;
+    li a {
+      &:first-child {
+        margin-left: 0;
+      }
+      margin: 1rem;
+      padding: 0.6rem 1rem;
+      border: none;
+      color: $primaryColor;
+    }
+    li.active a {
+      background-color: $accentColor;
+      color: $secondaryColor;
+    }
+    li a:hover {
+      background-color: $accentColor;
+      color: $secondaryColor;
+    }
+  }
+}
+
+#navButton {
+  display: none;
+}
+
+//MAIN
+
+#mainWrapper main {
+  .hero {
+    margin-top: 1rem;
+    p {
+      bottom: 0;
+      left: 0;
+      text-align: left;
+      line-height: 1.5rem;
+      .hiddenMobile,
+      .hiddenTablet {
+        display: inline;
+      }
+    }
+  }
+  h1 {
+    margin: 2rem 0;
+    text-align: center;
+  }
+}
