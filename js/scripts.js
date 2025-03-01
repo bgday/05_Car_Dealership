@@ -33,6 +33,7 @@ for (let x = 0; x < reviews.length; x++) {
   for (let step = 0; step < reviews[x].rating; step++) {
     const rateIndicator = document.createElement("img");
     rateIndicator.src = "/05_Car_Dealership/images/star-svgrepo-com.svg";
+    rateIndicator.alt = "star rating"
     myRating.appendChild(rateIndicator);
   }
 
